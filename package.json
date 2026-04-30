@@ -1,7 +1,16 @@
 {
   "name": "mirofish",
   "version": "0.1.0",
-  "description": "MiroFish - 简洁通用的群体智能引擎，预测万物",
+  "description": "MiroFish - A local-first swarm intelligence simulation and prediction workbench",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herbslice/mirofish.git"
+  },
+  "homepage": "https://github.com/herbslice/mirofish#readme",
+  "bugs": {
+    "url": "https://github.com/herbslice/mirofish/issues"
+  },
   "scripts": {
     "setup": "npm install && cd frontend && npm install",
     "setup:backend": "cd backend && uv sync",
@@ -16,6 +25,5 @@
   },
   "engines": {
     "node": ">=18.0.0"
-  },
-  "license": "AGPL-3.0"
+  }
 }

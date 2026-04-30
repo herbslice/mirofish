@@ -1,0 +1,12 @@
+MiroFish public fork contributors
+
+Original project
+- 666ghj and contributors to https://github.com/666ghj/MiroFish
+
+Fork contributors
+- Ali Madad — major English/local-first fork work, Docker/self-hosting work, local KuzuDB migration, provider expansion.
+- herbslice and contributors — public-release cleanup, provider compatibility fixes, documentation, release hardening.
+
+Third-party projects
+- CAMEL-AI OASIS — multi-agent social simulation framework.
+- KuzuDB — embedded graph database.

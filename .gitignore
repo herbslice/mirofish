@@ -2,13 +2,16 @@
 .DS_Store
 Thumbs.db
 
-# 环境变量（保护敏感信息）
+# Environment / secrets
 .env
-.env.local
-.env.*.local
-.env.development
-.env.test
-.env.production
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
 
 # Python
 __pycache__/
@@ -18,43 +21,41 @@ __pycache__/
 .Python
 .venv/
 venv/
+venv*/
 ENV/
 .eggs/
 *.egg-info/
 dist/
 build/
-
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# 测试
 .pytest_cache/
 .coverage
 htmlcov/
 
-# Cursor
+# Node.js
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend build/cache
+frontend/dist/
+frontend/.vite/
+
+# IDE/tooling
+.vscode/
+.idea/
+*.swp
+*.swo
 .cursor/
-.claude/
 
-# 文档与测试程序
-mydoc/
-mytest/
-
-# 日志文件
-backend/logs/
-*.log
-
-# 上传文件
+# Runtime data: uploads, simulations, graph DBs, logs
 backend/uploads/
-
-# Docker 数据
+backend/data/
+backend/logs/
+uploads/
 data/
+*.log
+*.db
+*.sqlite
+*.duckdb

@@ -1,0 +1,21 @@
+MiroFish Public Fork Notice
+
+This repository is a cleaned public fork of MiroFish:
+https://github.com/666ghj/MiroFish
+
+MiroFish is distributed under the GNU Affero General Public License v3.0. This fork preserves the AGPL-3.0 license.
+
+Major changes in this fork include:
+- English UI, prompts, and documentation.
+- Local embedded KuzuDB graph storage replacing hosted graph-service assumptions.
+- Anthropic API, OpenAI API, OpenAI-compatible API, and optional Codex CLI provider support.
+- Docker/local development cleanup.
+- Workbench/session/resource refactoring.
+- Compatibility fixes for OpenAI-compatible local models, including Qwen-style reasoning output handling.
+
+Attribution:
+- Original MiroFish: 666ghj and upstream contributors.
+- Major English/local-first fork work: Ali Madad.
+- Public release cleanup and additional provider fixes: herbslice and contributors.
+
+Third-party dependencies retain their own licenses. See package metadata and lockfiles for dependency details.

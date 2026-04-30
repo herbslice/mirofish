@@ -2,13 +2,19 @@
 .github
 .gitignore
 .cursor
+.vscode
+.idea
 .DS_Store
 .env
+.env.*
+!.env.example
 
 node_modules
 frontend/node_modules
 backend/.venv
 .venv
+venv
+venv-*
 .python-version
 
 __pycache__
@@ -21,3 +27,11 @@ frontend/dist
 frontend/.vite
 
 backend/uploads
+backend/data
+backend/logs
+uploads
+data
+*.log
+*.db
+*.sqlite
+*.duckdb
